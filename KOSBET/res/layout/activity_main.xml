@@ -1,0 +1,21 @@
+<android.support.v4.widget.SlidingPaneLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sliding_pane"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#383c45">
+
+    <fragment android:name="com.sms.inbox.InboxFragment"
+        android:id="@+id/inbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+	<FrameLayout
+	    android:id="@+id/chatContainer"
+	    android:layout_width="match_parent"
+        android:layout_height="match_parent" > 
+        
+	    
+	    
+    </FrameLayout>
+</android.support.v4.widget.SlidingPaneLayout>

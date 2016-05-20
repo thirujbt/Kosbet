@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    >
+    <LinearLayout
+        android:id="@+id/ll_title"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:background="#323233">
+    	<TextView
+       		android:layout_width="match_parent"
+        	android:layout_height="36dip"
+        	android:text="Access Denied"
+        	android:gravity="center_horizontal|center_vertical"
+        	android:textSize="22sp"
+        	android:textColor="#f1f2f3"/>
+    </LinearLayout>
+    <LinearLayout         
+        android:id="@+id/rl_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_title"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        >
+
+       
+        <Button  
+            android:layout_gravity="bottom"
+        	android:layout_marginTop="7dp"
+            android:id="@+id/bt_confirm"
+            android:text="Close"
+            android:textSize="16sp" 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            />
+         </LinearLayout>
+   
+    
+    
+     <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_pwd"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        >  
+         
+    </RelativeLayout>
+    
+    
+    
+    
+    
+    
+ 
+    
+    
+    
+    
+    
+    
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/textIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="37dp"
+        android:text="IP Address" />
+
+    <EditText
+        android:id="@+id/editIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textIP"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/textIP"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editPort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textPort"
+        android:layout_alignLeft="@+id/editIP"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/butSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editPort"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+        android:textColor="#fff"
+        android:padding="5dp"
+        android:background="@drawable/gradient"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/textPort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textIP"
+        android:layout_below="@+id/textIP"
+        android:layout_marginTop="40dp"
+        android:text="Port Number" />
+    
+    </RelativeLayout>
+
